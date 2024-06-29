@@ -1,7 +1,6 @@
-package org.example.definition;
+package org.example.PuntosTPO.Punto2_4;
 
 import org.example.implementation.normal.StaticStack;
-import org.example.implementation.normal.StaticStackBuilder;
 
 public interface IStaticStackBuilder {
 

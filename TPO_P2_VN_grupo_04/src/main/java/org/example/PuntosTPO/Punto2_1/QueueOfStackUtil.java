@@ -1,4 +1,4 @@
-package org.example.Punto2_1;
+package org.example.PuntosTPO.Punto2_1;
 
 import org.example.implementation.normal.StackOfStack;
 import org.example.implementation.normal.StaticStack;
@@ -41,7 +41,7 @@ public class QueueOfStackUtil {
         return copy1;
     }
 
-
+    //ObtenerTraza: O(n2)
     public static int ObtenerTraza (QueueOfStack Queue){
         QueueOfStack copy1 = copy(Queue);
         int aux1 = 0;
@@ -63,6 +63,7 @@ public class QueueOfStackUtil {
         return traza;
     }
 
+    //Traspuesta: O(n⋅m)
     public static QueueOfStack Traspuesta (QueueOfStack Queue) {
         QueueOfStack copy1 = copy(Queue);
         QueueOfStack traspuesta = new QueueOfStack();
@@ -130,6 +131,7 @@ public class QueueOfStackUtil {
         */
     }
 
+    //SumaMatricial: O(n⋅m)
     public static QueueOfStack SumaMatricial (QueueOfStack Queue, QueueOfStack Queue2){
         QueueOfStack copy11 = copy(Queue);
         QueueOfStack copy21 = copy(Queue2);

@@ -1,4 +1,4 @@
-package org.example.Punto2_2;
+package org.example.PuntosTPO.Punto2_2;
 
 import org.example.implementation.normal.StaticPriorityQueue;
 import org.example.implementation.normal.StaticSet;

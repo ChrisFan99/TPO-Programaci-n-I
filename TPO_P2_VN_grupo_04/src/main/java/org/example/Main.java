@@ -1,9 +1,13 @@
 package org.example;
 
 import org.example.JavaUtil.PriorityQueueUtil;
-import org.example.Punto2_2.*;
-import org.example.Punto2_1.QueueOfStack;
-import org.example.Punto2_1.QueueOfStackUtil;
+import org.example.PuntosTPO.Punto2_1.QueueOfStack;
+import org.example.PuntosTPO.Punto2_1.QueueOfStackUtil;
+import org.example.PuntosTPO.Punto2_2.*;
+import org.example.PuntosTPO.Punto2_3.QueueOfQueue;
+import org.example.PuntosTPO.Punto2_4.StaticQueueBuilder;
+import org.example.PuntosTPO.Punto2_4.StaticSetBuilder;
+import org.example.PuntosTPO.Punto2_4.StaticStackBuilder;
 import org.example.implementation.dynamic.DoubleLinkedCyclicDynamicQueue;
 import org.example.implementation.dynamic.LimitedDynamicStack;
 import org.example.implementation.normal.*;
@@ -133,7 +137,6 @@ public class Main {
         StaticQueue cola5 = new StaticQueue();
         StaticQueue cola6 = new StaticQueue();
 
-
         //Asignacion de valores de colas que se agregaran a QueueOfQueue
         cola3.add(1);
         cola3.add(2);
@@ -156,6 +159,7 @@ public class Main {
         QueueOfQueue colaVacia = new QueueOfQueue();
         colaVacia.concatenate(coladecolas1);
         colaVacia.concatenate(coladecolas2);
+        System.out.println(colaVacia);
 
         //Punto 2.3.2
         //Creacion de queueFlat
@@ -165,10 +169,9 @@ public class Main {
 
         //Punto 2.3.3
         //Creacion de queueOfQueue invertida
-        QueueOfQueue colainvertida = new QueueOfQueue();
+        QueueOfQueue colainvertida;
         colainvertida = colaVacia.reverseWithDepth(colaVacia);
-        System.out.println(colaVacia);
-
+        System.out.println(colainvertida);
 
         //Punto2.4
         //El patron builder es un patron de diseño, estos patrones son soluciones ya establecidas a

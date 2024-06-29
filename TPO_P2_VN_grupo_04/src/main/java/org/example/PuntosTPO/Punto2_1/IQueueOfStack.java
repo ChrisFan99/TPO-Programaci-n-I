@@ -1,4 +1,4 @@
-package org.example.Punto2_1;
+package org.example.PuntosTPO.Punto2_1;
 
 import org.example.implementation.normal.StaticStack;
 

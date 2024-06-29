@@ -1,6 +1,4 @@
-package org.example.Punto2_2;
-
-import org.example.definition.IGenericStack;
+package org.example.PuntosTPO.Punto2_2;
 
 public class GenericStack<T> implements IGenericStack<T> {
 

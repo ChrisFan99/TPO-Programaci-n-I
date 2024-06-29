@@ -1,6 +1,4 @@
-package org.example.Punto2_2;
-
-import org.example.definition.IGenericQueueWithPriority;
+package org.example.PuntosTPO.Punto2_2;
 
 public class GenericQueueWithPriority<T> implements IGenericQueueWithPriority<T> {
 

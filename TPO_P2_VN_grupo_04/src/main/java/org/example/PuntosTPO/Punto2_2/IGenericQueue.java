@@ -1,17 +1,16 @@
-package org.example.definition;
+package org.example.PuntosTPO.Punto2_2;
 
 /**
  * Precondicion: para usar cualquier de estos metodos la estructura debe estar inicializada.
  */
-public interface IGenericQueueWithPriority<T> {
+public interface IGenericQueue<T> {
 
     /**
-     * Postcondicion: Acola (coloca en el final de la cola) un valor, respecto a su prioridad.
+     * Postcondicion: Acola (coloca en el final de la cola) un valor.
      *
-     * @param a        valor a acolar.
-     * @param priority prioridad del valor a agregar.
+     * @param a valor a acolar.
      */
-    void add(T a, int priority);
+    void add(T a);
 
     /**
      * Precondicion: La cola no esta vacia.
@@ -29,9 +28,7 @@ public interface IGenericQueueWithPriority<T> {
      */
     T getFirst();
 
-    /**
-     * @return Devuelve la prioridad del primero.
-     */
-    int getPriority();
-
 }
+
+
+

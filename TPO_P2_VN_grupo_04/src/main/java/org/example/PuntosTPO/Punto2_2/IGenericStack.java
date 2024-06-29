@@ -1,4 +1,4 @@
-package org.example.definition;
+package org.example.PuntosTPO.Punto2_2;
 
 /**
  * Precondicion: para usar cualquier de estos metodos la estructura debe estar inicializada.

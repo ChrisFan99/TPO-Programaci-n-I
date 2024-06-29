@@ -1,6 +1,6 @@
-package org.example.implementation.normal;
+package org.example.PuntosTPO.Punto2_4;
 
-import org.example.definition.IStaticQueueBuilder;
+import org.example.implementation.normal.StaticQueue;
 
 public class StaticQueueBuilder implements IStaticQueueBuilder {
 

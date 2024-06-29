@@ -1,6 +1,8 @@
-package org.example.implementation.normal;
+package org.example.PuntosTPO.Punto2_3;
 
-import org.example.definition.IQueueOfQueue;
+import org.example.implementation.normal.StackOfQueue;
+import org.example.implementation.normal.StaticQueue;
+import org.example.implementation.normal.StaticStack;
 
 public class QueueOfQueue implements IQueueOfQueue {
 

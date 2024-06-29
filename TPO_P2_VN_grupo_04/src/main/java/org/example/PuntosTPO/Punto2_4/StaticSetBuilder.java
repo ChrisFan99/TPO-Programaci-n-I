@@ -1,7 +1,6 @@
-package org.example.implementation.normal;
+package org.example.PuntosTPO.Punto2_4;
 
-import org.example.definition.IStaticSetBuilder;
-import org.example.definition.Set;
+import org.example.implementation.normal.StaticSet;
 
 import java.util.Random;
 

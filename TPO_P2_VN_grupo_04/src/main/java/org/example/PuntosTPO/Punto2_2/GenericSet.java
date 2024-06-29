@@ -1,6 +1,4 @@
-package org.example.Punto2_2;
-
-import org.example.definition.IGenericSet;
+package org.example.PuntosTPO.Punto2_2;
 
 import java.util.Random;
 
