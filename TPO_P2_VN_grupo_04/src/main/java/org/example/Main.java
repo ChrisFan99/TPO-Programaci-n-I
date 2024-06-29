@@ -8,6 +8,8 @@ import org.example.PuntosTPO.Punto2_3.QueueOfQueue;
 import org.example.PuntosTPO.Punto2_4.StaticQueueBuilder;
 import org.example.PuntosTPO.Punto2_4.StaticSetBuilder;
 import org.example.PuntosTPO.Punto2_4.StaticStackBuilder;
+import org.example.PuntosTPO.Punto2_5.Coordenadas;
+import org.example.PuntosTPO.Punto2_5.MonteCarlo;
 import org.example.implementation.dynamic.DoubleLinkedCyclicDynamicQueue;
 import org.example.implementation.dynamic.LimitedDynamicStack;
 import org.example.implementation.normal.*;
@@ -228,7 +230,7 @@ public class Main {
         int [] queue2 = queueBuilder2.add(1).add(2).addAll(colaAgregar).build();
         int [] queue3 = queueBuilder3.add(5).add(6).addAll(colaAgregar2).build();
 
-        //Punto 2.5.1 - Algoritmos
+        //Punto 2.5.1 - Algoritmos - Pila elementos Desordenada
         StaticStack pilaDesordenada = new StaticStack();
         pilaDesordenada.add(3);
         pilaDesordenada.add(3);
@@ -248,6 +250,7 @@ public class Main {
         //- Primer While: O(n)
         //- Segundo While: O(n+klogk)
         //- Tercer While: O(k)
+
         //- Complejidad total del metodo: O(n+klogk)
         // n: Cantidad elementos del stack original
         // k: Cantidad elementos del stack resultados luego de eliminar duplicados

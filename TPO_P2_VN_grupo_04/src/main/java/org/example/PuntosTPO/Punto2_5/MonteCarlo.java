@@ -1,4 +1,4 @@
-package org.example.implementation.normal;
+package org.example.PuntosTPO.Punto2_5;
 
 public class MonteCarlo {
 
