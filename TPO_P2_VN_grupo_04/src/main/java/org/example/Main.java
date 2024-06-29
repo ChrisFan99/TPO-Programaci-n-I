@@ -360,7 +360,18 @@ public class Main {
 
         StaticPriorityQueue colaPrioridadEditarPar = PriorityQueueUtil.editarPar(colaPrioridad,3,2);
 
-
+        /**
+         * Entrega del TPO_P2_VN_grupo_04:
+         *
+         * Puntos realizados por cada alumno:
+         * Punto1: Maximo Liang - Legajo 1166939
+         * Punto2: Matias Re - Legajo 1165682
+         * Punto3: Kiara Tedeschi
+         * Punto4: Matias Re, Kiara Tedeschi, Maximo Liang
+         * Punto5: Christian Fangano - Legajo 1168264
+         * Punto6: Matias Re - Legajo 1165682
+         * Punto7: Christian Fangano - Legajo 1168264
+         */
 
 
 
