@@ -1,6 +1,5 @@
 package org.example.PuntosTPO.Punto2_3;
 
-import org.example.implementation.normal.StackOfQueue;
 import org.example.implementation.normal.StaticQueue;
 import org.example.implementation.normal.StaticStack;
 

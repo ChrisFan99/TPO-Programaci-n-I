@@ -1,6 +1,6 @@
-package org.example.implementation.normal;
+package org.example.PuntosTPO.Punto2_3;
 
-import org.example.definition.IStackOfQueue;
+import org.example.implementation.normal.StaticQueue;
 
 public class StackOfQueue implements IStackOfQueue {
 

@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.JavaUtil.PriorityQueueUtil;
+import org.example.PuntosTPO.Punto2_7.PriorityQueueUtil;
 import org.example.PuntosTPO.Punto2_1.QueueOfStack;
 import org.example.PuntosTPO.Punto2_1.QueueOfStackUtil;
 import org.example.PuntosTPO.Punto2_2.*;

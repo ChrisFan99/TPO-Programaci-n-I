@@ -1,4 +1,4 @@
-package org.example.JavaUtil;
+package org.example.PuntosTPO.Punto2_7;
 
 import org.example.implementation.normal.StaticPriorityQueue;
 import org.example.implementation.normal.StaticQueue;

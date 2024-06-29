@@ -1,4 +1,4 @@
-package org.example.definition;
+package org.example.PuntosTPO.Punto2_3;
 
 import org.example.implementation.normal.StaticQueue;
 

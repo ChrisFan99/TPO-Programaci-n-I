@@ -1,6 +1,6 @@
-package org.example.implementation.normal;
+package org.example.PuntosTPO.Punto2_1;
 
-import org.example.definition.IStackOfStack;
+import org.example.implementation.normal.StaticStack;
 
 public class StackOfStack implements IStackOfStack {
 
