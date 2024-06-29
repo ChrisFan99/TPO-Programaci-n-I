@@ -1,7 +1,5 @@
 package org.example.implementation.normal;
 
-import org.example.JavaUtil.StaticSetUtil;
-
 public class MonteCarlo {
 
     private static final int Max = 10000;

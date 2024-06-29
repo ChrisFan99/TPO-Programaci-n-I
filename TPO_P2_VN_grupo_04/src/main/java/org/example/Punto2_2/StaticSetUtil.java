@@ -1,6 +1,5 @@
-package org.example.JavaUtil;
+package org.example.Punto2_2;
 
-import org.example.implementation.normal.GenericSet;
 import org.example.implementation.normal.StaticSet;
 
 public class StaticSetUtil {

@@ -1,4 +1,4 @@
-package org.example.implementation.normal;
+package org.example.Punto2_2;
 
 import org.example.definition.IGenericStack;
 

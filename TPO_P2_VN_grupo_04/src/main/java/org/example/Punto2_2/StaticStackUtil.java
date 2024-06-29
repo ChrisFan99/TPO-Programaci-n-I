@@ -1,6 +1,5 @@
-package org.example.JavaUtil;
+package org.example.Punto2_2;
 
-import org.example.implementation.normal.GenericStack;
 import org.example.implementation.normal.StaticPriorityQueue;
 import org.example.implementation.normal.StaticSet;
 import org.example.implementation.normal.StaticStack;

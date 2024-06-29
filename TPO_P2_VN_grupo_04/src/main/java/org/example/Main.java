@@ -1,11 +1,18 @@
 package org.example;
 
+import org.example.JavaUtil.PriorityQueueUtil;
+import org.example.Punto2_2.*;
+import org.example.Punto2_1.QueueOfStack;
+import org.example.Punto2_1.QueueOfStackUtil;
 import org.example.implementation.dynamic.DoubleLinkedCyclicDynamicQueue;
+import org.example.implementation.dynamic.LimitedDynamicStack;
+import org.example.implementation.normal.*;
+
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
 
-        /*
         StaticStack pila1= new StaticStack();
         StaticStack pila2= new StaticStack();
         StaticStack pila3= new StaticStack();
@@ -301,7 +308,6 @@ public class Main {
 
         StaticSet setComplemento = universalSet.complement(subSet);
 
-        */
         //Punto 2.6.3 - Cola dinamica ciclica doblemente enlazada - Corroborar
         DoubleLinkedCyclicDynamicQueue colaCiclica = new DoubleLinkedCyclicDynamicQueue();
         colaCiclica.addFirst(1);
@@ -311,7 +317,7 @@ public class Main {
 
         System.out.println();
 
-        /*
+
         //Punto 2.6.4 - Conjunto con repetidos, conjunto de duplas - Importante mantener aleatoriedad en el Choose
         StaticSetRepeated setRepeated = new StaticSetRepeated();
         setRepeated.add(1,8);
@@ -352,7 +358,7 @@ public class Main {
 
 
 
-        */
+
 
 
 

@@ -1,6 +1,6 @@
 package org.example.implementation.normal;
 
-import org.example.JavaUtil.StaticSetUtil;
+import org.example.Punto2_2.StaticSetUtil;
 
 public class UniversalSet extends StaticSet {
 
