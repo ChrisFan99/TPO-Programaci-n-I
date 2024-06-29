@@ -1,7 +1,6 @@
-package org.example.implementation.normal;
+package org.example.Punto2_1;
 
-import org.example.definition.IQueueOfStack;
-import org.example.definition.Stack;
+import org.example.implementation.normal.StaticStack;
 
 public class QueueOfStack implements IQueueOfStack {
 

@@ -1,21 +1,6 @@
 package org.example;
 
-import org.example.JavaUtil.PriorityQueueUtil;
-import org.example.JavaUtil.QueueOfStackUtil;
-import org.example.JavaUtil.StaticSetUtil;
-import org.example.JavaUtil.StaticStackUtil;
-import org.example.definition.IQueueOfStack;
-import org.example.definition.Set;
 import org.example.implementation.dynamic.DoubleLinkedCyclicDynamicQueue;
-import org.example.implementation.dynamic.DynamicQueue;
-import org.example.implementation.dynamic.LimitedDynamicStack;
-import org.example.implementation.dynamic.nodes.Node;
-import org.example.implementation.dynamic.nodes.NodeDoubleLinked;
-import org.example.implementation.normal.*;
-
-import java.util.List;
-import java.util.Random;
-import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {

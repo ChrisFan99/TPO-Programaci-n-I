@@ -1,10 +1,7 @@
-package org.example.JavaUtil;
+package org.example.Punto2_1;
 
-import org.example.implementation.normal.QueueOfStack;
 import org.example.implementation.normal.StackOfStack;
 import org.example.implementation.normal.StaticStack;
-
-import java.util.Stack;
 
 public class QueueOfStackUtil {
 

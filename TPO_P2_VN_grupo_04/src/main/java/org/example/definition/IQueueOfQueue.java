@@ -1,7 +1,6 @@
 package org.example.definition;
 
 import org.example.implementation.normal.QueueOfQueue;
-import org.example.implementation.normal.QueueOfStack;
 import org.example.implementation.normal.StaticQueue;
 
 /**
