@@ -48,15 +48,13 @@ public class PriorityQueueUtil {
         StaticQueue queuepriorityOriginal = new StaticQueue();
         StaticPriorityQueue priorityQueueAux = new StaticPriorityQueue();
 
-        boolean bandera = false;
-        int priorityremplace = 0;
+        boolean bandera = true;
 
         while (!copy1.isEmpty()){
-            if (copy1.getFirst() == v) {
+            if (copy1.getFirst() == v && bandera) {
                 queueValue.add(copy1.getFirst());
                 queuepriority.add(priority);
-                priorityremplace = copy1.getPriority();
-                bandera = true;
+                bandera = false;
             }
             else {
                 queueValue.add(copy1.getFirst());
@@ -66,40 +64,34 @@ public class PriorityQueueUtil {
             copy1.remove();
         }
 
-        StaticQueue copyQueuepriorityOrig = copyQueue(queuepriorityOriginal);
         StaticQueue copyQueuepriority = copyQueue(queuepriority);
+        StaticQueue copyQueuepriorityOrig = copyQueue(queuepriorityOriginal);
 
-        int[] posicionesCriticas = new int[10000];
         int count = 0;
+        int countDif = 0;
         int dif = 0;
-        int difGeneric = 0;
 
         while (!copyQueuepriorityOrig.isEmpty()){
             if (copyQueuepriorityOrig.getFirst() != copyQueuepriority.getFirst()){
-                posicionesCriticas[count] = copyQueuepriority.getFirst();
-                if (copyQueuepriorityOrig.getFirst() > copyQueuepriority.getFirst()) {
-                    dif = copyQueuepriorityOrig.getFirst() - copyQueuepriority.getFirst();
-                }
-                else {
-                    dif = copyQueuepriority.getFirst() - copyQueuepriorityOrig.getFirst();
-                }
-                posicionesCriticas[count] = dif;
+                dif = copyQueuepriorityOrig.getFirst() - copyQueuepriority.getFirst();
+                countDif = count;
             }
             count++;
             copyQueuepriorityOrig.remove();
             copyQueuepriority.remove();
         }
 
-        while (!queuepriorityOriginal.isEmpty()){
-            if  (count == 0){
+        while (!queuepriority.isEmpty()){
+            if  (countDif == 0){
                 priorityQueueAux.add(queueValue.getFirst(),queuepriority.getFirst());
-                queuepriorityOriginal.remove();
+                queuepriority.remove();
                 queueValue.remove();
+                countDif--;
                 continue;
             }
             priorityQueueAux.add(queueValue.getFirst(),queuepriority.getFirst()-dif);
-            count--;
-            queuepriorityOriginal.remove();
+            countDif--;
+            queuepriority.remove();
             queueValue.remove();
         }
         return priorityQueueAux;
