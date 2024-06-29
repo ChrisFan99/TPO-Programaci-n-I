@@ -316,20 +316,25 @@ public class Main {
 
         StaticSet setComplemento = universalSet.complement(subSet);
 
+        */
+        //Punto 2.6.3 - Cola dinamica ciclica doblemente enlazada - Corroborar
+        DoubleLinkedCyclicDynamicQueue colaCiclica = new DoubleLinkedCyclicDynamicQueue();
+        colaCiclica.addFirst(1);
+        colaCiclica.addFirst(2);
+        colaCiclica.addFirst(3);
+        colaCiclica.removeFirst();
 
-        //Punto 2.6.3
-        //DoubleLinkedCyclicDynamicQueue pepe = new DoubleLinkedCyclicDynamicQueue();
-        //pepe.addFirst(1);
+        System.out.println();
 
-
+        /*
         //Punto 2.6.4 - Conjunto con repetidos, conjunto de duplas - Importante mantener aleatoriedad en el Choose
-        StaticSetRepeated set = new StaticSetRepeated();
-        set.add(1,8);
-        set.add(1,1);
-        set.add(2,1);
-        set.add(2,8);
-        set.add(3,9);
-        set.add(4,9);
+        StaticSetRepeated setRepeated = new StaticSetRepeated();
+        setRepeated.add(1,8);
+        setRepeated.add(1,1);
+        setRepeated.add(2,1);
+        setRepeated.add(2,8);
+        setRepeated.add(3,9);
+        setRepeated.add(4,9);
 
         System.out.println(set.choose());
 
@@ -359,11 +364,12 @@ public class Main {
 
         StaticPriorityQueue colaPrioridadEditarPar = PriorityQueueUtil.editarPar(colaPrioridad,3,2);
 
+
+
+
         */
 
 
-
-        System.out.println();
 
 
 
