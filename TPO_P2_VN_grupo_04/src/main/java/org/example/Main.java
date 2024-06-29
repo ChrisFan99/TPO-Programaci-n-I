@@ -18,6 +18,7 @@ import java.util.Stack;
 public class Main {
     public static void main(String[] args) {
 
+        /*
         StaticStack pila1= new StaticStack();
         StaticStack pila2= new StaticStack();
         StaticStack pila3= new StaticStack();
@@ -316,6 +317,7 @@ public class Main {
         //DoubleLinkedCyclicDynamicQueue pepe = new DoubleLinkedCyclicDynamicQueue();
         //pepe.addFirst(1);
 
+        */
         //Punto 2.7.1
         StaticPriorityQueue colaPrioridad = new StaticPriorityQueue();
         colaPrioridad.add(1,2);
@@ -324,8 +326,11 @@ public class Main {
         colaPrioridad.add(4,8);
         colaPrioridad.add(3,10);
 
+
         StaticPriorityQueue colaPrioridadEditarPar = PriorityQueueUtil.editarPar(colaPrioridad,3,2);
         //[-2,0,2,4,6]
+
+
 
 
         System.out.println();
