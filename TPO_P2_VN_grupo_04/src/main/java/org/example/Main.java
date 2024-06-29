@@ -18,8 +18,6 @@ import java.util.Stack;
 public class Main {
     public static void main(String[] args) {
 
-
-        /*
         StaticStack pila1= new StaticStack();
         StaticStack pila2= new StaticStack();
         StaticStack pila3= new StaticStack();
@@ -314,7 +312,6 @@ public class Main {
         System.out.println(universalSet.isSubset(subSet));
 
         StaticSet setComplemento = universalSet.complement(subSet);
-        */
 
         //DoubleLinkedCyclicDynamicQueue pepe = new DoubleLinkedCyclicDynamicQueue();
         //pepe.addFirst(1);
