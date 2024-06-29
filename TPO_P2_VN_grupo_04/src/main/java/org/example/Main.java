@@ -5,6 +5,7 @@ import org.example.JavaUtil.QueueOfStackUtil;
 import org.example.JavaUtil.StaticSetUtil;
 import org.example.JavaUtil.StaticStackUtil;
 import org.example.definition.IQueueOfStack;
+import org.example.definition.Set;
 import org.example.implementation.dynamic.DoubleLinkedCyclicDynamicQueue;
 import org.example.implementation.dynamic.DynamicQueue;
 import org.example.implementation.dynamic.LimitedDynamicStack;
@@ -12,6 +13,7 @@ import org.example.implementation.dynamic.nodes.Node;
 import org.example.implementation.dynamic.nodes.NodeDoubleLinked;
 import org.example.implementation.normal.*;
 
+import java.util.List;
 import java.util.Random;
 import java.util.Stack;
 
@@ -314,10 +316,26 @@ public class Main {
 
         StaticSet setComplemento = universalSet.complement(subSet);
 
+
+        //Punto 2.6.3
         //DoubleLinkedCyclicDynamicQueue pepe = new DoubleLinkedCyclicDynamicQueue();
         //pepe.addFirst(1);
 
-        */
+
+        //Punto 2.6.5 - Devolver aleatoriamente algun valor a partir de una clave de un diccionario multiplo
+        StaticMultipleDictionaryRandom multipleDictionaryRandom = new StaticMultipleDictionaryRandom();
+        multipleDictionaryRandom.add(2,1);
+        multipleDictionaryRandom.add(2,2);
+        multipleDictionaryRandom.add(2,3);
+        multipleDictionaryRandom.add(2,4);
+        multipleDictionaryRandom.add(2,5);
+        multipleDictionaryRandom.add(2,6);
+        multipleDictionaryRandom.add(2,7);
+        multipleDictionaryRandom.add(2,8);
+
+        System.out.println(multipleDictionaryRandom.randomValueWhithKey(2));
+
+
         //Punto 2.7.1
         StaticPriorityQueue colaPrioridad = new StaticPriorityQueue();
         colaPrioridad.add(1,2);
@@ -328,8 +346,8 @@ public class Main {
 
 
         StaticPriorityQueue colaPrioridadEditarPar = PriorityQueueUtil.editarPar(colaPrioridad,3,2);
-        //[-2,0,2,4,6]
 
+        */
 
 
 
