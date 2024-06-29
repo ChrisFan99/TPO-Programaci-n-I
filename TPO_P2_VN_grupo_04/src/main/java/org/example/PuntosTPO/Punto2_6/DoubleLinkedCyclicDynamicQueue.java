@@ -1,6 +1,5 @@
-package org.example.implementation.dynamic;
+package org.example.PuntosTPO.Punto2_6;
 
-import org.example.definition.IQueueDoubleLinkCyclicDynamic;
 import org.example.implementation.dynamic.nodes.NodeDoubleLinked;
 
 import java.util.Objects;

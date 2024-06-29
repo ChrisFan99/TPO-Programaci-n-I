@@ -1,4 +1,4 @@
-package org.example.definition;
+package org.example.PuntosTPO.Punto2_6;
 
 import org.example.implementation.dynamic.nodes.NodeDoubleLinked;
 

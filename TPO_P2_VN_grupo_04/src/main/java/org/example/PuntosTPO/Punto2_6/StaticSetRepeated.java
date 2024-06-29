@@ -1,6 +1,4 @@
-package org.example.implementation.normal;
-
-import org.example.definition.SetRepeated;
+package org.example.PuntosTPO.Punto2_6;
 
 public class StaticSetRepeated implements SetRepeated {
 

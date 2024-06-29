@@ -1,6 +1,6 @@
-package org.example.definition;
+package org.example.PuntosTPO.Punto2_6;
 
-import java.util.List;
+import org.example.definition.Set;
 
 /**
  * Precondicion: para usar cualquier de estos metodos la estructura debe estar inicializada.

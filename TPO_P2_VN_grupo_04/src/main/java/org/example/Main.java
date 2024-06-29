@@ -10,8 +10,7 @@ import org.example.PuntosTPO.Punto2_4.StaticSetBuilder;
 import org.example.PuntosTPO.Punto2_4.StaticStackBuilder;
 import org.example.PuntosTPO.Punto2_5.Coordenadas;
 import org.example.PuntosTPO.Punto2_5.MonteCarlo;
-import org.example.implementation.dynamic.DoubleLinkedCyclicDynamicQueue;
-import org.example.implementation.dynamic.LimitedDynamicStack;
+import org.example.PuntosTPO.Punto2_6.*;
 import org.example.implementation.normal.*;
 
 import java.util.Random;
@@ -297,7 +296,7 @@ public class Main {
         LimitedDynamicStack limiDynamicStack = new LimitedDynamicStack(2);
         limiDynamicStack.add(1);
         limiDynamicStack.add(2);
-        //Aca se lanza la excepcion ya que la cantidad maxima de elemtos es 2
+        //Aca se lanza la excepcion ya que la cantidad maxima de elemtos es 2 - descomentar linea de abajo para lanzar excepcion
         //limiDynamicStack.add(3);
 
         //Punto 2.6.2 - SuperConjunto

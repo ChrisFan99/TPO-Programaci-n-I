@@ -1,7 +1,7 @@
-package org.example.implementation.normal;
+package org.example.PuntosTPO.Punto2_6;
 
-import org.example.definition.MultipleDictionaryRandom;
 import org.example.definition.Set;
+import org.example.implementation.normal.StaticSet;
 
 import java.util.*;
 

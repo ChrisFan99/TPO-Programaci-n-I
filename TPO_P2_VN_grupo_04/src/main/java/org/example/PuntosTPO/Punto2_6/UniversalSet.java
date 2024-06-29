@@ -1,6 +1,7 @@
-package org.example.implementation.normal;
+package org.example.PuntosTPO.Punto2_6;
 
 import org.example.PuntosTPO.Punto2_2.StaticSetUtil;
+import org.example.implementation.normal.StaticSet;
 
 public class UniversalSet extends StaticSet {
 
