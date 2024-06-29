@@ -322,6 +322,18 @@ public class Main {
         //pepe.addFirst(1);
 
 
+        //Punto 2.6.4 - Conjunto con repetidos, conjunto de duplas - Importante mantener aleatoriedad en el Choose
+        StaticSetRepeated set = new StaticSetRepeated();
+        set.add(1,8);
+        set.add(1,1);
+        set.add(2,1);
+        set.add(2,8);
+        set.add(3,9);
+        set.add(4,9);
+
+        System.out.println(set.choose());
+
+
         //Punto 2.6.5 - Devolver aleatoriamente algun valor a partir de una clave de un diccionario multiplo
         StaticMultipleDictionaryRandom multipleDictionaryRandom = new StaticMultipleDictionaryRandom();
         multipleDictionaryRandom.add(2,1);
